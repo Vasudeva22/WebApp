@@ -9,16 +9,6 @@
   <name>WebApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
-  <distributionManagement>
-  <repository>
-  <id> release </id>
-  <url> http://192.168.0.160:8081/nexus/content/repositories/releases/ </url>
-  </repository>
-  <snapshotRepository>
-  <id>snapshot</id>
-  <url>http://192.168.0.160:8081/nexus/content/repositories/snapshots/ </url>
-  </snapshotRepository>
-  </distributionManagement>
  
   <dependencies>
     <dependency>
